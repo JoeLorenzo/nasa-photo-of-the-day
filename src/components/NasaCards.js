@@ -1,11 +1,12 @@
 import React from "react"
 
 function NasaCards(props){
+  console.log(props)
   return (
     <div>
-      <h2> Title </h2>
-      <img src="https://apod.nasa.gov.jpg" />
-      <p> Explanation </p>
+      <h2> {props.title} </h2>
+      <img src={props.url} />
+      <p> {props.explanation} </p>
     </div>
 
   )
