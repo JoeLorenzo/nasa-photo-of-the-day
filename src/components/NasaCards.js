@@ -4,7 +4,7 @@ import { Jumbotron, Alert} from 'reactstrap';
 import styled from "styled-components"
 
 const PTag = styled.p`
-font-size: 1 rem;
+font-size: 1rem;
 `
 
 function NasaCards(props){
