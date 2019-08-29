@@ -3,6 +3,10 @@ import ReactDOM from "react-dom"
 import "./App.css";
 import axios from "axios"
 import NasaCards from "./components/NasaCards.js"
+import styled from "styled-components"
+import Header from "./header"
+
+
 
 function App() {
   const [title, setTitle] = useState("")
@@ -24,7 +28,8 @@ function App() {
   return (
     <div className="App">
         <div>
-        <NasaCards
+          <Header />
+          <NasaCards
           date={date}
           title={title}
           url={url}
