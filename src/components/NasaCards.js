@@ -6,7 +6,7 @@ function NasaCards(props){
     <div>
       <h2> {props.title} </h2>
       <h3> {props.date} </h3>
-      <img src={props.url} />
+      <img src={props.url} alt="" />
       <p> {props.explanation} </p>
     </div>
 

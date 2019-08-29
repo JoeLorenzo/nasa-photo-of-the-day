@@ -23,14 +23,14 @@ function App() {
 }, [])
   return (
     <div className="App">
-      <p>
+        <div>
         <NasaCards
           date={date}
           title={title}
           url={url}
           explanation={explanation}
           />
-      </p>
+        </div>
     </div>
   );
 }
