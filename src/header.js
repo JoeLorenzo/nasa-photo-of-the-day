@@ -5,6 +5,7 @@ import styled from "styled-components"
 
 const HeaderContainer = styled.div`
 background: #ccf2ff ;
+font-size: 4rem;
 margin: 0;
 `
 

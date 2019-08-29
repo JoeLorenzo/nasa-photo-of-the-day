@@ -3,21 +3,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Jumbotron, Alert} from 'reactstrap';
 import styled from "styled-components"
 
-const H2Tag = styled.h2`
-background: green;
-color: blue;
+const PTag = styled.p`
+font-size: 1 rem;
 `
 
 function NasaCards(props){
   console.log(props)
-  console.log(H2Tag)
   return (
       <div>
       <Jumbotron>
-      <h3> {props.title} </h3>
-      <h3> {props.date} </h3>
+      <h4> {props.title} </h4>
+      <h4> {props.date} </h4>
       <img src={props.url} alt="" />
-      <p> {props.explanation} </p>
+      <PTag> {props.explanation} </PTag>
       </Jumbotron>
       </div>
 
